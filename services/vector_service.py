@@ -25,25 +25,25 @@ class IntelligentVectorService:
         self.embedding_dimension = 3072  # Default dimension for gemini-embedding-001
         
     async def initialize(self):
-        """Initialize the vector service with Gemini Embeddings"""
-        logger.info("Initializing vector service with Google Gemini Embeddings...")
+        """Initialize the vector service with optimized approach to conserve API quota"""
+        logger.info("Initializing vector service with quota-optimized approach...")
         
         try:
             # Initialize Gemini client
             gemini_api_key = self.settings.gemini_api_key
             if not gemini_api_key or gemini_api_key == "your_gemini_api_key_here":
-                logger.warning("GEMINI_API_KEY not set. Please add your API key to the .env file.")
-                logger.info("You can get your API key from: https://makersuite.google.com/app/apikey")
-                # Fallback to simple embeddings
+                logger.warning("GEMINI_API_KEY not set. Using local embeddings to conserve quota.")
                 self.gemini_client = None
             else:
                 self.gemini_client = genai.Client(api_key=gemini_api_key)
                 logger.info("Gemini client initialized successfully")
             
-            # Initialize FAISS index with Gemini embedding dimension
+            # Use local embeddings by default to conserve API quota
+            # Only use Gemini embeddings for critical operations
+            self.embedding_dimension = 384  # Use smaller dimension for local embeddings
             self.index = faiss.IndexFlatL2(self.embedding_dimension)
             
-            logger.info(f"Vector service initialized with Gemini Embeddings (dimension: {self.embedding_dimension})")
+            logger.info(f"Vector service initialized with quota-optimized approach (dimension: {self.embedding_dimension})")
             
         except Exception as e:
             logger.error(f"Vector service initialization failed: {e}")
@@ -67,9 +67,9 @@ class IntelligentVectorService:
             logger.warning(f"No chunks created for document {doc_id}")
             return
         
-        # Generate embeddings using Gemini
+        # Generate embeddings using local approach to conserve API quota
         chunk_texts = [chunk['text'] for chunk in chunks]
-        embeddings = await self.create_gemini_embeddings(chunk_texts)
+        embeddings = await self.create_local_embeddings(chunk_texts)
         
         if embeddings is None or len(embeddings) == 0:
             logger.error(f"Failed to generate embeddings for document {doc_id}")
@@ -153,59 +153,72 @@ class IntelligentVectorService:
             return await self.text_based_search(query, k)
     
     async def create_gemini_embeddings(self, texts: List[str]) -> Optional[List[List[float]]]:
-        """Create embeddings using Google Gemini Embedding API"""
+        """Create embeddings using Google Gemini Embedding API with quota optimization"""
         
         if not self.gemini_client:
             logger.warning("Gemini client not available, using fallback embeddings")
             return self.create_simple_embeddings(texts).tolist()
         
         try:
+            # Limit the number of texts to avoid quota exhaustion
+            # For free tier, we need to be very conservative
+            max_texts = min(len(texts), 5)  # Only process first 5 chunks
+            texts_to_process = texts[:max_texts]
+            
+            logger.info(f"Processing {len(texts_to_process)} texts for embeddings (limited to conserve quota)")
+            
             embeddings = []
             
-            # Process texts in batches to avoid rate limits
-            batch_size = 10
-            for i in range(0, len(texts), batch_size):
-                batch_texts = texts[i:i + batch_size]
-                
-                # Create embedding request
-                result = self.gemini_client.models.embed_content(
-                    model=self.embedding_model,
-                    contents=batch_texts
-                )
-                
-                # Extract embeddings from response
-                batch_embeddings = []
-                for embedding in result.embeddings:
-                    # Convert to list and ensure correct dimension
-                    embedding_values = embedding.values
+            # Process texts one by one to minimize API calls
+            for i, text in enumerate(texts_to_process):
+                try:
+                    # Create embedding request for single text
+                    result = self.gemini_client.models.embed_content(
+                        model=self.embedding_model,
+                        contents=text
+                    )
                     
-                    # Handle different dimension options (3072, 1536, 768)
-                    if len(embedding_values) == 3072:
-                        # Use full dimension
-                        batch_embeddings.append(embedding_values)
-                    elif len(embedding_values) == 1536:
-                        # Pad to 3072 if needed
-                        padded_embedding = embedding_values + [0.0] * (3072 - 1536)
-                        batch_embeddings.append(padded_embedding)
-                    elif len(embedding_values) == 768:
-                        # Pad to 3072 if needed
-                        padded_embedding = embedding_values + [0.0] * (3072 - 768)
-                        batch_embeddings.append(padded_embedding)
-                    else:
-                        # Use as-is and pad/truncate
-                        if len(embedding_values) > 3072:
-                            batch_embeddings.append(embedding_values[:3072])
+                    # Extract embedding from response
+                    if result.embeddings and len(result.embeddings) > 0:
+                        embedding_values = result.embeddings[0].values
+                        
+                        # Handle different dimension options (3072, 1536, 768)
+                        if len(embedding_values) == 3072:
+                            embeddings.append(embedding_values)
+                        elif len(embedding_values) == 1536:
+                            padded_embedding = embedding_values + [0.0] * (3072 - 1536)
+                            embeddings.append(padded_embedding)
+                        elif len(embedding_values) == 768:
+                            padded_embedding = embedding_values + [0.0] * (3072 - 768)
+                            embeddings.append(padded_embedding)
                         else:
-                            padded_embedding = embedding_values + [0.0] * (3072 - len(embedding_values))
-                            batch_embeddings.append(padded_embedding)
-                
-                embeddings.extend(batch_embeddings)
-                
-                # Small delay to respect rate limits
-                if i + batch_size < len(texts):
-                    await asyncio.sleep(0.1)
+                            if len(embedding_values) > 3072:
+                                embeddings.append(embedding_values[:3072])
+                            else:
+                                padded_embedding = embedding_values + [0.0] * (3072 - len(embedding_values))
+                                embeddings.append(padded_embedding)
+                    
+                    # Add delay between calls to respect rate limits
+                    if i < len(texts_to_process) - 1:
+                        await asyncio.sleep(0.5)  # Increased delay
+                        
+                except Exception as e:
+                    logger.warning(f"Failed to create embedding for text {i}: {e}")
+                    # Use fallback embedding for this text
+                    fallback_embedding = self.create_simple_embeddings([text])[0].tolist()
+                    # Pad to 3072 dimensions
+                    if len(fallback_embedding) < 3072:
+                        fallback_embedding.extend([0.0] * (3072 - len(fallback_embedding)))
+                    embeddings.append(fallback_embedding)
             
-            logger.info(f"Generated {len(embeddings)} Gemini embeddings")
+            # If we have fewer embeddings than texts, pad with fallback embeddings
+            while len(embeddings) < len(texts):
+                fallback_embedding = self.create_simple_embeddings(["fallback text"])[0].tolist()
+                if len(fallback_embedding) < 3072:
+                    fallback_embedding.extend([0.0] * (3072 - len(fallback_embedding)))
+                embeddings.append(fallback_embedding)
+            
+            logger.info(f"Generated {len(embeddings)} embeddings (optimized for quota)")
             return embeddings
             
         except Exception as e:
@@ -344,6 +357,11 @@ class IntelligentVectorService:
                 })
         
         return chunks
+    
+    async def create_local_embeddings(self, texts: List[str]) -> List[List[float]]:
+        """Create local embeddings to conserve API quota"""
+        logger.info(f"Creating local embeddings for {len(texts)} texts (quota-optimized)")
+        return self.create_simple_embeddings(texts).tolist()
     
     def create_simple_embeddings(self, texts: List[str]) -> np.ndarray:
         """Create simple embeddings using TF-IDF-like approach"""

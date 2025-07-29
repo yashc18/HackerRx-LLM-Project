@@ -68,18 +68,18 @@ app_state = {
 async def lifespan(app: FastAPI):
     """Lifespan context manager for startup and shutdown"""
     # Startup
-    logger.info("🚀 Starting HackRx - LLM-Powered Query-Retrieval System...")
-    logger.info("📄 Processing PDFs, DOCX, and email documents")
-    logger.info("🔍 Using FAISS for semantic search and Gemini for LLM")
-    logger.info("🌐 API will be available at: http://localhost:8000")
-    logger.info("🏥 Health check: http://localhost:8000/api/v1/health")
-    logger.info("📚 API docs: http://localhost:8000/docs")
-    logger.info("🎯 Evaluation endpoint: http://localhost:8000/hackrx/run")
+    logger.info("Starting HackRx - LLM-Powered Query-Retrieval System...")
+    logger.info("Processing PDFs, DOCX, and email documents")
+    logger.info("Using FAISS for semantic search and Gemini for LLM")
+    logger.info("API will be available at: http://localhost:8001")
+    logger.info("Health check: http://localhost:8001/api/v1/health")
+    logger.info("API docs: http://localhost:8001/docs")
+    logger.info("Evaluation endpoint: http://localhost:8001/hackrx/run")
     
     try:
         # Initialize cache
         app_state["cache"] = SimpleCache()
-        logger.info("💾 In-memory cache initialized")
+        logger.info("In-memory cache initialized")
         
         # Initialize core services
         app_state["doc_processor"] = FixedDocumentProcessor()
@@ -91,19 +91,19 @@ async def lifespan(app: FastAPI):
         await app_state["llm_service"].initialize()
         
         app_state["initialized"] = True
-        logger.info("✅ All services initialized successfully")
+        logger.info("All services initialized successfully")
         
     except Exception as e:
-        logger.error(f"❌ Startup failed: {str(e)}")
+        logger.error(f"Startup failed: {str(e)}")
         raise
     
     yield
     
     # Shutdown
-    logger.info("🛑 Shutting down HackRx system...")
+    logger.info("Shutting down HackRx system...")
     if app_state["cache"]:
         app_state["cache"].clear()
-    logger.info("🧹 Cleanup completed")
+    logger.info("Cleanup completed")
 
 # Initialize FastAPI app with lifespan
 app = FastAPI(
@@ -208,11 +208,26 @@ async def hackrx_run(
         doc_processor = app_state["doc_processor"]
         processed_doc = await doc_processor.process_with_robustness(request.documents)
         
-        if not processed_doc or not processed_doc.get('text'):
+        if not processed_doc:
             raise HTTPException(
                 status_code=status.HTTP_400_BAD_REQUEST,
-                detail="Failed to process document or extract text"
+                detail="Failed to process document"
             )
+        
+        # Check if we got meaningful text or an error message
+        doc_text = processed_doc.get('text', '')
+        if not doc_text or len(doc_text.strip()) < 50:
+            # If we have an error message, return it as a helpful response
+            if "Document processing failed:" in doc_text:
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail=doc_text
+                )
+            else:
+                raise HTTPException(
+                    status_code=status.HTTP_400_BAD_REQUEST,
+                    detail="Failed to extract meaningful text from document. The PDF might be corrupted, password-protected, or contain only images."
+                )
         
         # Stage 2: Build Search Index
         logger.info(f"Request {request_id}: Stage 2 - Building Search Index")
@@ -401,7 +416,7 @@ if __name__ == "__main__":
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
-        port=8000,
+        port=8001,
         reload=False,
         workers=1
     ) 

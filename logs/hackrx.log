@@ -3932,3 +3932,962 @@ message: "API key not valid. Please pass a valid API key."
 2025-07-29 23:15:06 - enhanced_main - INFO - Shutting down Enhanced HackRx system...
 2025-07-29 23:15:06 - utils.simple_cache - INFO - Cache cleared
 2025-07-29 23:15:06 - enhanced_main - INFO - Cleanup completed
+2025-07-30 00:22:02 - root - INFO - Logging configuration initialized
+2025-07-30 00:22:02 - root - INFO - Logging configuration initialized
+2025-07-30 00:22:03 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:22:04 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:22:04 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:22:04 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:22:04 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:22:04 - utils.simple_cache - INFO - Cache cleared
+2025-07-30 00:23:20 - root - INFO - Logging configuration initialized
+2025-07-30 00:23:20 - root - INFO - Logging configuration initialized
+2025-07-30 00:23:20 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:23:20 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:23:20 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:23:20 - main - INFO - API will be available at: http://localhost:8000
+2025-07-30 00:23:20 - main - INFO - Health check: http://localhost:8000/api/v1/health
+2025-07-30 00:23:20 - main - INFO - API docs: http://localhost:8000/docs
+2025-07-30 00:23:20 - main - INFO - Evaluation endpoint: http://localhost:8000/hackrx/run
+2025-07-30 00:23:20 - main - INFO - In-memory cache initialized
+2025-07-30 00:23:20 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:23:21 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:23:21 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:23:21 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:23:21 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:23:21 - main - INFO - All services initialized successfully
+2025-07-30 00:23:43 - root - INFO - Logging configuration initialized
+2025-07-30 00:23:43 - root - INFO - Logging configuration initialized
+2025-07-30 00:23:43 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:23:43 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:23:43 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:23:43 - main - INFO - API will be available at: http://localhost:8000
+2025-07-30 00:23:43 - main - INFO - Health check: http://localhost:8000/api/v1/health
+2025-07-30 00:23:43 - main - INFO - API docs: http://localhost:8000/docs
+2025-07-30 00:23:43 - main - INFO - Evaluation endpoint: http://localhost:8000/hackrx/run
+2025-07-30 00:23:43 - main - INFO - In-memory cache initialized
+2025-07-30 00:23:43 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:23:44 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:23:44 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:23:44 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:23:44 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:23:44 - main - INFO - All services initialized successfully
+2025-07-30 00:23:44 - main - INFO - Shutting down HackRx system...
+2025-07-30 00:23:44 - utils.simple_cache - INFO - Cache cleared
+2025-07-30 00:23:44 - main - INFO - Cleanup completed
+2025-07-30 00:24:38 - root - INFO - Logging configuration initialized
+2025-07-30 00:24:38 - root - INFO - Logging configuration initialized
+2025-07-30 00:24:38 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:24:38 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:24:38 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:24:38 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:24:38 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:24:38 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:24:38 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:24:38 - main - INFO - In-memory cache initialized
+2025-07-30 00:24:38 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:24:40 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:24:40 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:24:40 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:24:40 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:24:40 - main - INFO - All services initialized successfully
+2025-07-30 00:26:13 - main - INFO - Request 343ef9e8-f234-4334-bc37-3948aca1c0cb: Processing 1 questions for document: https://hackrx.blob.core.windows.net/assets/Arogya%20Sanjeevani%20Policy%20-%20CIN%20-%20U10200WB1906GOI001713%201.pdf?sv=2023-01-03&st=2025-07-21T08%3A29%3A02Z&se=2025-09-22T08%3A29%3A00Z&sr=b&sp=r&sig=nzrz1K9Iurt%2BBXom%2FB%2BMPTFMFP3PRnIvEsipAX10Ig4%3D
+2025-07-30 00:26:13 - main - INFO - Request 343ef9e8-f234-4334-bc37-3948aca1c0cb: Stage 1 - Document Processing
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Downloaded 452255 bytes
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 16
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 1: Extracted 4945 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 2: Extracted 4809 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 3: Extracted 4791 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 4: Extracted 4642 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 5: Extracted 4583 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 6: Extracted 5366 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 7: Extracted 4293 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 8: Extracted 4858 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 9: Extracted 4623 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 10: Extracted 4889 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 11: Extracted 5906 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 12: Extracted 6061 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 13: Extracted 3940 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 14: Extracted 3248 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 15: Extracted 3953 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Page 16: Extracted 5211 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Total extracted text: 76150 characters
+2025-07-30 00:26:13 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:26:13 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:33:57 - main - INFO - Request 45250422-b401-4472-8e6a-4cd5a7fe5751: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:33:57 - main - INFO - Request 45250422-b401-4472-8e6a-4cd5a7fe5751: Stage 1 - Document Processing
+2025-07-30 00:33:58 - services.document_processor_fixed - ERROR - Document processing failed: Download failed: 404
+2025-07-30 00:34:50 - main - INFO - Request 69f802a8-fb76-4bdd-936a-ca7fa4f2e8fd: Processing 10 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:34:50 - main - INFO - Request 69f802a8-fb76-4bdd-936a-ca7fa4f2e8fd: Stage 1 - Document Processing
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Downloaded 704602 bytes
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 25
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 1: Extracted 4887 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 2: Extracted 4905 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 3: Extracted 4766 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 4: Extracted 4771 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 5: Extracted 4115 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 6: Extracted 4837 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 7: Extracted 5030 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 8: Extracted 4166 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 9: Extracted 4892 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 10: Extracted 4262 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 11: Extracted 3628 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 12: Extracted 4603 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 13: Extracted 5142 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 14: Extracted 4765 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 15: Extracted 5326 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 16: Extracted 5803 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 17: Extracted 5184 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 18: Extracted 3004 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 19: Extracted 3883 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 20: Extracted 4042 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 21: Extracted 1270 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 22: Extracted 5295 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 23: Extracted 911 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 24: Extracted 3924 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Page 25: Extracted 5558 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Total extracted text: 109019 characters
+2025-07-30 00:34:51 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:34:51 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:35:01 - main - INFO - Request 8c618021-5e4f-460c-86b1-83f922d5fe18: Processing 10 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:35:01 - main - INFO - Request 8c618021-5e4f-460c-86b1-83f922d5fe18: Stage 1 - Document Processing
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Downloaded 704602 bytes
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 25
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 1: Extracted 4887 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 2: Extracted 4905 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 3: Extracted 4766 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 4: Extracted 4771 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 5: Extracted 4115 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 6: Extracted 4837 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 7: Extracted 5030 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 8: Extracted 4166 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 9: Extracted 4892 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 10: Extracted 4262 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 11: Extracted 3628 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 12: Extracted 4603 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 13: Extracted 5142 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 14: Extracted 4765 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 15: Extracted 5326 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 16: Extracted 5803 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 17: Extracted 5184 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 18: Extracted 3004 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 19: Extracted 3883 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 20: Extracted 4042 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 21: Extracted 1270 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 22: Extracted 5295 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 23: Extracted 911 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 24: Extracted 3924 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Page 25: Extracted 5558 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Total extracted text: 109019 characters
+2025-07-30 00:35:01 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:35:01 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:39:55 - main - INFO - Request fa7738e4-83d6-4b57-9cb4-c4349a51c4c6: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:39:55 - main - INFO - Request fa7738e4-83d6-4b57-9cb4-c4349a51c4c6: Stage 1 - Document Processing
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Downloaded 704602 bytes
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 25
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 1: Extracted 4887 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 2: Extracted 4905 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 3: Extracted 4766 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 4: Extracted 4771 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 5: Extracted 4115 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 6: Extracted 4837 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 7: Extracted 5030 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 8: Extracted 4166 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 9: Extracted 4892 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 10: Extracted 4262 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 11: Extracted 3628 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 12: Extracted 4603 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 13: Extracted 5142 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 14: Extracted 4765 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 15: Extracted 5326 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 16: Extracted 5803 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 17: Extracted 5184 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 18: Extracted 3004 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 19: Extracted 3883 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 20: Extracted 4042 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 21: Extracted 1270 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 22: Extracted 5295 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 23: Extracted 911 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 24: Extracted 3924 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Page 25: Extracted 5558 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Total extracted text: 109019 characters
+2025-07-30 00:39:56 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:39:56 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:40:09 - main - INFO - Request 3c554235-9843-42e3-9480-9d8b6b976063: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:40:09 - main - INFO - Request 3c554235-9843-42e3-9480-9d8b6b976063: Stage 1 - Document Processing
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Downloaded 704602 bytes
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 25
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 1: Extracted 4887 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 2: Extracted 4905 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 3: Extracted 4766 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 4: Extracted 4771 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 5: Extracted 4115 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 6: Extracted 4837 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 7: Extracted 5030 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 8: Extracted 4166 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 9: Extracted 4892 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 10: Extracted 4262 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 11: Extracted 3628 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 12: Extracted 4603 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 13: Extracted 5142 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 14: Extracted 4765 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 15: Extracted 5326 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 16: Extracted 5803 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 17: Extracted 5184 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 18: Extracted 3004 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 19: Extracted 3883 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 20: Extracted 4042 characters
+2025-07-30 00:40:09 - services.document_processor_fixed - INFO - Page 21: Extracted 1270 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Page 22: Extracted 5295 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Page 23: Extracted 911 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Page 24: Extracted 3924 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Page 25: Extracted 5558 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Total extracted text: 109019 characters
+2025-07-30 00:40:10 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:40:10 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:41:15 - root - INFO - Logging configuration initialized
+2025-07-30 00:41:16 - root - INFO - Logging configuration initialized
+2025-07-30 00:41:16 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:41:16 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:41:16 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:41:16 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:41:16 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:41:16 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:41:16 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:41:16 - main - INFO - In-memory cache initialized
+2025-07-30 00:41:16 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:41:17 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:41:17 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:41:17 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:41:17 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:41:17 - main - INFO - All services initialized successfully
+2025-07-30 00:41:17 - main - INFO - Shutting down HackRx system...
+2025-07-30 00:41:17 - utils.simple_cache - INFO - Cache cleared
+2025-07-30 00:41:17 - main - INFO - Cleanup completed
+2025-07-30 00:41:33 - main - INFO - Request fb5889a3-0f2d-49a2-a9c8-ce3737e17c97: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:41:33 - main - INFO - Request fb5889a3-0f2d-49a2-a9c8-ce3737e17c97: Stage 1 - Document Processing
+2025-07-30 00:41:34 - services.document_processor_fixed - ERROR - Document processing failed: Download failed: 404
+2025-07-30 00:41:37 - main - INFO - Request 5759450f-d29c-45df-9d9b-b0e6e1b85d2c: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:41:37 - main - INFO - Request 5759450f-d29c-45df-9d9b-b0e6e1b85d2c: Stage 1 - Document Processing
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Downloaded 704602 bytes
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - PDF opened successfully. Pages: 25
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 1: Extracted 4887 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 2: Extracted 4905 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 3: Extracted 4766 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 4: Extracted 4771 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 5: Extracted 4115 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 6: Extracted 4837 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 7: Extracted 5030 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 8: Extracted 4166 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 9: Extracted 4892 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 10: Extracted 4262 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 11: Extracted 3628 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 12: Extracted 4603 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 13: Extracted 5142 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 14: Extracted 4765 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 15: Extracted 5326 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 16: Extracted 5803 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 17: Extracted 5184 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 18: Extracted 3004 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 19: Extracted 3883 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 20: Extracted 4042 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 21: Extracted 1270 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 22: Extracted 5295 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 23: Extracted 911 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 24: Extracted 3924 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Page 25: Extracted 5558 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Total extracted text: 109019 characters
+2025-07-30 00:41:37 - services.document_processor_fixed - INFO - Extracted 0 structured sections
+2025-07-30 00:41:37 - services.document_processor_fixed - ERROR - Document processing failed: document closed
+2025-07-30 00:42:20 - root - INFO - Logging configuration initialized
+2025-07-30 00:42:20 - root - INFO - Logging configuration initialized
+2025-07-30 00:42:20 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:42:20 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:42:20 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:42:20 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:42:20 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:42:20 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:42:20 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:42:20 - main - INFO - In-memory cache initialized
+2025-07-30 00:42:20 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:42:22 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:42:22 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:42:22 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:42:22 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:42:22 - main - INFO - All services initialized successfully
+2025-07-30 00:42:25 - main - INFO - Request 8b5109f4-3797-45a1-8a13-7451eb1fe5d0: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:42:25 - main - INFO - Request 8b5109f4-3797-45a1-8a13-7451eb1fe5d0: Stage 1 - Document Processing
+2025-07-30 00:42:26 - services.document_processor_fixed - ERROR - Download failed with status 404
+2025-07-30 00:42:26 - services.document_processor_fixed - ERROR - Document processing failed for https://example.com/sample-document.pdf: Failed to download document
+2025-07-30 00:42:26 - main - INFO - Request 8b5109f4-3797-45a1-8a13-7451eb1fe5d0: Stage 2 - Building Search Index
+2025-07-30 00:42:26 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:42:26 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:42:26 - services.vector_service - INFO - Built Gemini-powered index for document 8b5109f4-3797-45a1-8a13-7451eb1fe5d0_doc with 1 chunks
+2025-07-30 00:42:26 - main - INFO - Request 8b5109f4-3797-45a1-8a13-7451eb1fe5d0: Stage 3 - Processing Questions
+2025-07-30 00:42:27 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:42:27 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:42:27 - services.vector_service - INFO - Gemini search completed: 1 results for query: What is the main topic of this document?...
+2025-07-30 00:42:27 - main - INFO - Retrieved 1 context chunks for question: What is the main topic of this document?...
+2025-07-30 00:42:27 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:42:27 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:42:29 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:42:31 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-30 00:42:31 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-07-30 00:42:31 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:42:31 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:42:31 - services.vector_service - INFO - Gemini search completed: 1 results for query: What are the key findings mentioned?...
+2025-07-30 00:42:31 - main - INFO - Retrieved 1 context chunks for question: What are the key findings mentioned?...
+2025-07-30 00:42:31 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:42:31 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:42:33 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:42:40 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-30 00:42:40 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-30 00:42:41 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:42:41 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:42:41 - services.vector_service - INFO - Gemini search completed: 1 results for query: Who are the primary authors?...
+2025-07-30 00:42:41 - main - INFO - Retrieved 1 context chunks for question: Who are the primary authors?...
+2025-07-30 00:42:41 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:42:41 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:42:43 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:42:43 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:42:43 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}
+2025-07-30 00:42:43 - main - INFO - Request 8b5109f4-3797-45a1-8a13-7451eb1fe5d0: Completed in 18.63s
+2025-07-30 00:43:04 - main - INFO - Request 6a6cee46-27d9-4f29-b7a4-3fe804255983: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:43:04 - main - INFO - Request 6a6cee46-27d9-4f29-b7a4-3fe804255983: Stage 1 - Document Processing
+2025-07-30 00:43:05 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 00:43:05 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:43:05 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 00:43:05 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 00:43:05 - main - INFO - Request 6a6cee46-27d9-4f29-b7a4-3fe804255983: Stage 2 - Building Search Index
+2025-07-30 00:43:07 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:09 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:11 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:13 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:15 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:16 - services.vector_service - INFO - Generated 50 Gemini embeddings
+2025-07-30 00:43:16 - services.vector_service - INFO - Built Gemini-powered index for document 6a6cee46-27d9-4f29-b7a4-3fe804255983_doc with 50 chunks
+2025-07-30 00:43:16 - main - INFO - Request 6a6cee46-27d9-4f29-b7a4-3fe804255983: Stage 3 - Processing Questions
+2025-07-30 00:43:16 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:16 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:43:16 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the grace period for premium payment under...
+2025-07-30 00:43:16 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 00:43:16 - main - INFO - First chunk preview: [Page 7] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 00:43:16 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:43:20 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:43:20 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-30 00:43:20 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-07-30 00:43:21 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:21 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:43:21 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the waiting period for pre-existing diseas...
+2025-07-30 00:43:21 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:43:21 - main - INFO - First chunk preview: Preferred Provider Network (PPN) means a network of hospitals which have agreed to a cashless packag...
+2025-07-30 00:43:21 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:43:24 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:43:24 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:43:24 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '34s'}]}}
+2025-07-30 00:43:25 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:43:25 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:43:25 - services.vector_service - INFO - Gemini search completed: 5 results for query: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:43:25 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:43:25 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 00:43:25 - services.llm_service - INFO - Using API key: AIzaSyAWMB...
+2025-07-30 00:43:29 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:43:35 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-30 00:43:35 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-30 00:43:35 - main - INFO - Request 6a6cee46-27d9-4f29-b7a4-3fe804255983: Completed in 31.02s
+2025-07-30 00:46:48 - root - INFO - Logging configuration initialized
+2025-07-30 00:46:48 - root - INFO - Logging configuration initialized
+2025-07-30 00:46:48 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:46:48 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:46:48 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:46:48 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:46:48 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:46:48 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:46:48 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:46:48 - main - INFO - In-memory cache initialized
+2025-07-30 00:46:48 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:46:49 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:46:49 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:46:49 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:46:49 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:46:49 - main - INFO - All services initialized successfully
+2025-07-30 00:48:39 - root - INFO - Logging configuration initialized
+2025-07-30 00:48:39 - root - INFO - Logging configuration initialized
+2025-07-30 00:48:39 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:48:39 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:48:39 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:48:39 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:48:39 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:48:39 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:48:39 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:48:39 - main - INFO - In-memory cache initialized
+2025-07-30 00:48:39 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:48:41 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:48:41 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:48:41 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:48:41 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:48:41 - main - INFO - All services initialized successfully
+2025-07-30 00:48:41 - main - INFO - Request ac0722fa-87b9-4287-9a21-f2ba46b6da61: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:48:41 - main - INFO - Request ac0722fa-87b9-4287-9a21-f2ba46b6da61: Stage 1 - Document Processing
+2025-07-30 00:48:42 - services.document_processor_fixed - ERROR - Download failed with status 404
+2025-07-30 00:48:42 - services.document_processor_fixed - ERROR - Document processing failed for https://example.com/sample-document.pdf: Failed to download document
+2025-07-30 00:48:42 - main - INFO - Request ac0722fa-87b9-4287-9a21-f2ba46b6da61: Stage 2 - Building Search Index
+2025-07-30 00:48:43 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:43 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:48:43 - services.vector_service - INFO - Built Gemini-powered index for document ac0722fa-87b9-4287-9a21-f2ba46b6da61_doc with 1 chunks
+2025-07-30 00:48:43 - main - INFO - Request ac0722fa-87b9-4287-9a21-f2ba46b6da61: Stage 3 - Processing Questions
+2025-07-30 00:48:44 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:44 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:48:44 - services.vector_service - INFO - Gemini search completed: 1 results for query: What is the main topic of this document?...
+2025-07-30 00:48:44 - main - INFO - Retrieved 1 context chunks for question: What is the main topic of this document?...
+2025-07-30 00:48:44 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:48:46 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:48:46 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:48:46 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '12s'}]}}
+2025-07-30 00:48:47 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:47 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:48:47 - services.vector_service - INFO - Gemini search completed: 1 results for query: What are the key findings mentioned?...
+2025-07-30 00:48:47 - main - INFO - Retrieved 1 context chunks for question: What are the key findings mentioned?...
+2025-07-30 00:48:47 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:48:47 - services.llm_service - INFO - Rate limiting: sleeping for 0.51s
+2025-07-30 00:48:48 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:48 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:48:48 - services.vector_service - INFO - Gemini search completed: 1 results for query: Who are the primary authors?...
+2025-07-30 00:48:48 - main - INFO - Retrieved 1 context chunks for question: Who are the primary authors?...
+2025-07-30 00:48:48 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:48:51 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:48:51 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:48:51 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7s'}]}}
+2025-07-30 00:48:54 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:48:54 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:48:54 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-1.5-flash', 'location': 'global'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '4s'}]}}
+2025-07-30 00:48:54 - main - INFO - Request 3529b88e-4e58-4c45-953e-05d285a69f46: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:48:54 - main - INFO - Request 3529b88e-4e58-4c45-953e-05d285a69f46: Stage 1 - Document Processing
+2025-07-30 00:48:54 - main - INFO - Request ac0722fa-87b9-4287-9a21-f2ba46b6da61: Completed in 13.04s
+2025-07-30 00:48:55 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 00:48:55 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:48:55 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 00:48:55 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 00:48:55 - main - INFO - Request 3529b88e-4e58-4c45-953e-05d285a69f46: Stage 2 - Building Search Index
+2025-07-30 00:48:56 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:57 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:48:59 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:01 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:03 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:04 - services.vector_service - INFO - Generated 50 Gemini embeddings
+2025-07-30 00:49:04 - services.vector_service - INFO - Built Gemini-powered index for document 3529b88e-4e58-4c45-953e-05d285a69f46_doc with 50 chunks
+2025-07-30 00:49:04 - main - INFO - Request 3529b88e-4e58-4c45-953e-05d285a69f46: Stage 3 - Processing Questions
+2025-07-30 00:49:04 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:04 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:49:04 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the grace period for premium payment under...
+2025-07-30 00:49:04 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 00:49:04 - main - INFO - First chunk preview: [Page 7] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 00:49:06 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:49:07 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:49:07 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-1.5-flash', 'location': 'global'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '52s'}]}}
+2025-07-30 00:49:07 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:07 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:49:07 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the waiting period for pre-existing diseas...
+2025-07-30 00:49:07 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:49:07 - main - INFO - First chunk preview: Preferred Provider Network (PPN) means a network of hospitals which have agreed to a cashless packag...
+2025-07-30 00:49:07 - services.llm_service - INFO - Rate limiting: sleeping for 0.49s
+2025-07-30 00:49:08 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:49:08 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:49:08 - services.vector_service - INFO - Gemini search completed: 5 results for query: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:49:08 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:49:08 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 00:49:10 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:49:10 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:49:10 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '48s'}]}}
+2025-07-30 00:49:12 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:49:12 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:49:12 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}
+2025-07-30 00:49:12 - main - INFO - Request 3529b88e-4e58-4c45-953e-05d285a69f46: Completed in 17.97s
+2025-07-30 00:50:55 - root - INFO - Logging configuration initialized
+2025-07-30 00:50:55 - root - INFO - Logging configuration initialized
+2025-07-30 00:50:55 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:50:55 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:50:55 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:50:55 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:50:55 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:50:55 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:50:55 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:50:55 - main - INFO - In-memory cache initialized
+2025-07-30 00:50:55 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:50:56 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:50:56 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:50:56 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:50:56 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:50:56 - main - INFO - All services initialized successfully
+2025-07-30 00:50:56 - main - INFO - Shutting down HackRx system...
+2025-07-30 00:50:56 - utils.simple_cache - INFO - Cache cleared
+2025-07-30 00:50:56 - main - INFO - Cleanup completed
+2025-07-30 00:51:08 - main - INFO - Request a8a0f150-5b73-4829-8bc4-d56efa34e257: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:51:08 - main - INFO - Request a8a0f150-5b73-4829-8bc4-d56efa34e257: Stage 1 - Document Processing
+2025-07-30 00:51:09 - services.document_processor_fixed - ERROR - Download failed with status 404
+2025-07-30 00:51:09 - services.document_processor_fixed - ERROR - Document processing failed for https://example.com/sample-document.pdf: Failed to download document
+2025-07-30 00:51:09 - main - INFO - Request a8a0f150-5b73-4829-8bc4-d56efa34e257: Stage 2 - Building Search Index
+2025-07-30 00:51:10 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:10 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:10 - services.vector_service - INFO - Built Gemini-powered index for document a8a0f150-5b73-4829-8bc4-d56efa34e257_doc with 1 chunks
+2025-07-30 00:51:10 - main - INFO - Request a8a0f150-5b73-4829-8bc4-d56efa34e257: Stage 3 - Processing Questions
+2025-07-30 00:51:11 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:11 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:11 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the main topic of this document?...
+2025-07-30 00:51:11 - main - INFO - Retrieved 5 context chunks for question: What is the main topic of this document?...
+2025-07-30 00:51:11 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:51:12 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:51:12 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:51:12 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '46s'}]}}
+2025-07-30 00:51:13 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:13 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:13 - services.vector_service - INFO - Gemini search completed: 5 results for query: What are the key findings mentioned?...
+2025-07-30 00:51:13 - main - INFO - Retrieved 5 context chunks for question: What are the key findings mentioned?...
+2025-07-30 00:51:13 - main - INFO - First chunk preview: laryngitis and pharingitis j) Arthritis, gout and rheumatism...
+2025-07-30 00:51:13 - services.llm_service - INFO - Rate limiting: sleeping for 0.58s
+2025-07-30 00:51:14 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:14 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:14 - services.vector_service - INFO - Gemini search completed: 5 results for query: Who are the primary authors?...
+2025-07-30 00:51:14 - main - INFO - Retrieved 5 context chunks for question: Who are the primary authors?...
+2025-07-30 00:51:14 - main - INFO - First chunk preview: laryngitis and pharingitis j) Arthritis, gout and rheumatism...
+2025-07-30 00:51:16 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:51:16 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:51:16 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '42s'}]}}
+2025-07-30 00:51:18 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:51:18 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:51:18 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-1.5-flash', 'location': 'global'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '41s'}]}}
+2025-07-30 00:51:18 - main - INFO - Request a8a0f150-5b73-4829-8bc4-d56efa34e257: Completed in 9.78s
+2025-07-30 00:51:25 - main - INFO - Request 9f22f287-98c2-4f2c-8363-0a404e90ae25: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:51:25 - main - INFO - Request 9f22f287-98c2-4f2c-8363-0a404e90ae25: Stage 1 - Document Processing
+2025-07-30 00:51:26 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 00:51:26 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:51:26 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 00:51:26 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 00:51:26 - main - INFO - Request 9f22f287-98c2-4f2c-8363-0a404e90ae25: Stage 2 - Building Search Index
+2025-07-30 00:51:27 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:28 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:30 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:32 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:34 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:35 - services.vector_service - INFO - Generated 50 Gemini embeddings
+2025-07-30 00:51:35 - services.vector_service - INFO - Built Gemini-powered index for document 9f22f287-98c2-4f2c-8363-0a404e90ae25_doc with 50 chunks
+2025-07-30 00:51:35 - main - INFO - Request 9f22f287-98c2-4f2c-8363-0a404e90ae25: Stage 3 - Processing Questions
+2025-07-30 00:51:36 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:36 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:36 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the grace period for premium payment under...
+2025-07-30 00:51:36 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 00:51:36 - main - INFO - First chunk preview: [Page 7] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 00:51:36 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 00:51:37 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:37 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:37 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the waiting period for pre-existing diseas...
+2025-07-30 00:51:37 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:51:37 - main - INFO - First chunk preview: Preferred Provider Network (PPN) means a network of hospitals which have agreed to a cashless packag...
+2025-07-30 00:51:37 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:51:37 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:51:37 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:51:37 - services.vector_service - INFO - Gemini search completed: 5 results for query: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:51:37 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:51:37 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 00:51:37 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:51:37 - main - INFO - Request 9f22f287-98c2-4f2c-8363-0a404e90ae25: Completed in 12.11s
+2025-07-30 00:55:14 - main - INFO - Request a438fb22-9beb-4cc1-92a4-0c333ce80676: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:55:14 - main - INFO - Request a438fb22-9beb-4cc1-92a4-0c333ce80676: Stage 1 - Document Processing
+2025-07-30 00:55:14 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 00:55:14 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:55:14 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 00:55:14 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 00:55:14 - main - INFO - Request a438fb22-9beb-4cc1-92a4-0c333ce80676: Stage 2 - Building Search Index
+2025-07-30 00:55:15 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:17 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:19 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:21 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:23 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:24 - services.vector_service - INFO - Generated 50 Gemini embeddings
+2025-07-30 00:55:24 - services.vector_service - INFO - Built Gemini-powered index for document a438fb22-9beb-4cc1-92a4-0c333ce80676_doc with 50 chunks
+2025-07-30 00:55:24 - main - INFO - Request a438fb22-9beb-4cc1-92a4-0c333ce80676: Stage 3 - Processing Questions
+2025-07-30 00:55:24 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:24 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:55:24 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the grace period for premium payment under...
+2025-07-30 00:55:24 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 00:55:24 - main - INFO - First chunk preview: [Page 7] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 00:55:24 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 00:55:26 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:26 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:55:26 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the waiting period for pre-existing diseas...
+2025-07-30 00:55:26 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:55:26 - main - INFO - First chunk preview: Preferred Provider Network (PPN) means a network of hospitals which have agreed to a cashless packag...
+2025-07-30 00:55:26 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:55:26 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:26 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:55:26 - services.vector_service - INFO - Gemini search completed: 5 results for query: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:55:26 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:55:26 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 00:55:26 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:55:26 - main - INFO - Request a438fb22-9beb-4cc1-92a4-0c333ce80676: Completed in 12.50s
+2025-07-30 00:55:56 - main - INFO - Request e0f2370f-85e3-4318-af61-d793b3e99a1b: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:55:56 - main - INFO - Request e0f2370f-85e3-4318-af61-d793b3e99a1b: Stage 1 - Document Processing
+2025-07-30 00:55:56 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 00:55:56 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 00:55:57 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 00:55:57 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 00:55:57 - main - INFO - Request e0f2370f-85e3-4318-af61-d793b3e99a1b: Stage 2 - Building Search Index
+2025-07-30 00:55:57 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:55:59 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:01 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:03 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:05 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:06 - services.vector_service - INFO - Generated 50 Gemini embeddings
+2025-07-30 00:56:06 - services.vector_service - INFO - Built Gemini-powered index for document e0f2370f-85e3-4318-af61-d793b3e99a1b_doc with 50 chunks
+2025-07-30 00:56:06 - main - INFO - Request e0f2370f-85e3-4318-af61-d793b3e99a1b: Stage 3 - Processing Questions
+2025-07-30 00:56:06 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:06 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:56:06 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the grace period for premium payment under...
+2025-07-30 00:56:06 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 00:56:06 - main - INFO - First chunk preview: [Page 7] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 00:56:06 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 00:56:07 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:07 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:56:07 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the waiting period for pre-existing diseas...
+2025-07-30 00:56:07 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:56:07 - main - INFO - First chunk preview: Preferred Provider Network (PPN) means a network of hospitals which have agreed to a cashless packag...
+2025-07-30 00:56:07 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 00:56:08 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:56:08 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:56:08 - services.vector_service - INFO - Gemini search completed: 5 results for query: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:56:08 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:56:08 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 00:56:08 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 00:56:08 - main - INFO - Request e0f2370f-85e3-4318-af61-d793b3e99a1b: Completed in 12.29s
+2025-07-30 00:57:08 - root - INFO - Logging configuration initialized
+2025-07-30 00:57:08 - root - INFO - Logging configuration initialized
+2025-07-30 00:57:08 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 00:57:08 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 00:57:08 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 00:57:08 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 00:57:08 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 00:57:08 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 00:57:08 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 00:57:08 - main - INFO - In-memory cache initialized
+2025-07-30 00:57:08 - services.vector_service - INFO - Initializing vector service with Google Gemini Embeddings...
+2025-07-30 00:57:09 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 00:57:09 - services.vector_service - INFO - Vector service initialized with Gemini Embeddings (dimension: 3072)
+2025-07-30 00:57:09 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 00:57:09 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 00:57:09 - main - INFO - All services initialized successfully
+2025-07-30 00:57:09 - main - INFO - Shutting down HackRx system...
+2025-07-30 00:57:09 - utils.simple_cache - INFO - Cache cleared
+2025-07-30 00:57:09 - main - INFO - Cleanup completed
+2025-07-30 00:57:17 - main - INFO - Request 58b3336d-f29d-41f7-b9ad-154fc018474c: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 00:57:17 - main - INFO - Request 58b3336d-f29d-41f7-b9ad-154fc018474c: Stage 1 - Document Processing
+2025-07-30 00:57:18 - services.document_processor_fixed - ERROR - Download failed with status 404
+2025-07-30 00:57:18 - services.document_processor_fixed - ERROR - Document processing failed for https://example.com/sample-document.pdf: Failed to download document
+2025-07-30 00:57:18 - main - INFO - Request 58b3336d-f29d-41f7-b9ad-154fc018474c: Stage 2 - Building Search Index
+2025-07-30 00:57:18 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:57:18 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:57:18 - services.vector_service - INFO - Built Gemini-powered index for document 58b3336d-f29d-41f7-b9ad-154fc018474c_doc with 1 chunks
+2025-07-30 00:57:18 - main - INFO - Request 58b3336d-f29d-41f7-b9ad-154fc018474c: Stage 3 - Processing Questions
+2025-07-30 00:57:19 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:57:19 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:57:19 - services.vector_service - INFO - Gemini search completed: 5 results for query: What is the main topic of this document?...
+2025-07-30 00:57:19 - main - INFO - Retrieved 5 context chunks for question: What is the main topic of this document?...
+2025-07-30 00:57:19 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 00:57:21 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:57:21 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:57:21 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-1.5-flash', 'location': 'global'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '37s'}]}}
+2025-07-30 00:57:22 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:57:22 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:57:22 - services.vector_service - INFO - Gemini search completed: 5 results for query: What are the key findings mentioned?...
+2025-07-30 00:57:22 - main - INFO - Retrieved 5 context chunks for question: What are the key findings mentioned?...
+2025-07-30 00:57:22 - main - INFO - First chunk preview: laryngitis and pharingitis j) Arthritis, gout and rheumatism...
+2025-07-30 00:57:22 - services.llm_service - INFO - Rate limiting: sleeping for 0.43s
+2025-07-30 00:57:23 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 00:57:23 - services.vector_service - INFO - Generated 1 Gemini embeddings
+2025-07-30 00:57:23 - services.vector_service - INFO - Gemini search completed: 5 results for query: Who are the primary authors?...
+2025-07-30 00:57:23 - main - INFO - Retrieved 5 context chunks for question: Who are the primary authors?...
+2025-07-30 00:57:23 - main - INFO - First chunk preview: laryngitis and pharingitis j) Arthritis, gout and rheumatism...
+2025-07-30 00:57:25 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:57:25 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:57:25 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-1.5-flash'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '33s'}]}}
+2025-07-30 00:57:26 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 00:57:27 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-07-30 00:57:27 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-1.5-flash', 'location': 'global'}, 'quotaValue': '50'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '32s'}]}}
+2025-07-30 00:57:27 - main - INFO - Request 58b3336d-f29d-41f7-b9ad-154fc018474c: Completed in 9.90s
+2025-07-30 01:01:12 - root - INFO - Logging configuration initialized
+2025-07-30 01:01:12 - root - INFO - Logging configuration initialized
+2025-07-30 01:01:12 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 01:01:12 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 01:01:12 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 01:01:12 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 01:01:12 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 01:01:12 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 01:01:12 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 01:01:12 - main - INFO - In-memory cache initialized
+2025-07-30 01:01:12 - services.vector_service - INFO - Initializing vector service with quota-optimized approach...
+2025-07-30 01:01:13 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 01:01:13 - services.vector_service - INFO - Vector service initialized with quota-optimized approach (dimension: 384)
+2025-07-30 01:01:13 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 01:01:13 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 01:01:13 - main - INFO - All services initialized successfully
+2025-07-30 01:01:23 - main - INFO - Request 6014eb7e-5c75-42aa-98f7-41385a5e2158: Processing 3 questions for document: https://example.com/sample-document.pdf
+2025-07-30 01:01:23 - main - INFO - Request 6014eb7e-5c75-42aa-98f7-41385a5e2158: Stage 1 - Document Processing
+2025-07-30 01:01:26 - services.document_processor_fixed - ERROR - Download failed with status 404
+2025-07-30 01:01:26 - services.document_processor_fixed - ERROR - Document processing failed for https://example.com/sample-document.pdf: Failed to download document
+2025-07-30 01:01:26 - main - INFO - Request 6014eb7e-5c75-42aa-98f7-41385a5e2158: Stage 2 - Building Search Index
+2025-07-30 01:01:26 - services.vector_service - INFO - Creating local embeddings for 1 texts (quota-optimized)
+2025-07-30 01:01:26 - services.vector_service - INFO - Built Gemini-powered index for document 6014eb7e-5c75-42aa-98f7-41385a5e2158_doc with 1 chunks
+2025-07-30 01:01:26 - main - INFO - Request 6014eb7e-5c75-42aa-98f7-41385a5e2158: Stage 3 - Processing Questions
+2025-07-30 01:01:26 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:01:27 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:01:27 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:01:27 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:01:27 - main - INFO - Retrieved 1 context chunks for question: What is the main topic of this document?...
+2025-07-30 01:01:27 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 01:01:28 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:01:51 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-30 01:01:51 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-07-30 01:01:51 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:01:51 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:01:51 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:01:51 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:01:51 - main - INFO - Retrieved 1 context chunks for question: What are the key findings mentioned?...
+2025-07-30 01:01:51 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 01:01:51 - services.llm_service - INFO - Rate limiting: sleeping for 1.44s
+2025-07-30 01:01:51 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:01:53 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:01:53 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:01:53 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:01:53 - main - INFO - Retrieved 1 context chunks for question: Who are the primary authors?...
+2025-07-30 01:01:53 - main - INFO - First chunk preview: Document processing failed: Failed to download document. Please ensure the PDF is accessible and con...
+2025-07-30 01:01:53 - services.llm_service - INFO - Rate limiting: sleeping for 0.22s
+2025-07-30 01:01:54 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:02:04 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-30 01:02:04 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-30 01:02:05 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:03:05 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-30 01:03:05 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-30 01:03:05 - main - INFO - Request 6014eb7e-5c75-42aa-98f7-41385a5e2158: Completed in 101.33s
+2025-07-30 01:03:05 - main - INFO - Request 90371f01-380b-415f-859e-e950c195c543: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:03:05 - main - INFO - Request 90371f01-380b-415f-859e-e950c195c543: Stage 1 - Document Processing
+2025-07-30 01:03:05 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 01:03:05 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:03:05 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 01:03:05 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 01:03:05 - main - INFO - Request 90371f01-380b-415f-859e-e950c195c543: Stage 2 - Building Search Index
+2025-07-30 01:03:05 - services.vector_service - INFO - Creating local embeddings for 50 texts (quota-optimized)
+2025-07-30 01:03:05 - services.vector_service - INFO - Built Gemini-powered index for document 90371f01-380b-415f-859e-e950c195c543_doc with 50 chunks
+2025-07-30 01:03:05 - main - INFO - Request 90371f01-380b-415f-859e-e950c195c543: Stage 3 - Processing Questions
+2025-07-30 01:03:05 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:03:06 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:03:06 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:03:06 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:03:06 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 01:03:06 - main - INFO - First chunk preview: and coverage of Pre-Existing Diseases. The Grace Period for payment of the premium shall be thirty d...
+2025-07-30 01:03:06 - services.llm_service - INFO - Rate limiting: sleeping for 0.84s
+2025-07-30 01:03:06 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:03:07 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:03:07 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:03:07 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:03:07 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:03:07 - main - INFO - First chunk preview: person who holds a valid registration from the medical council of any state or Medical Council of In...
+2025-07-30 01:03:09 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:03:09 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-30 01:03:09 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-07-30 01:03:09 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:03:09 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:03:09 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:03:09 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:03:09 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:03:09 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 01:03:09 - services.llm_service - INFO - Rate limiting: sleeping for 1.49s
+2025-07-30 01:03:11 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:03:16 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-07-30 01:03:16 - google_genai.models - INFO - AFC remote call 1 is done.
+2025-07-30 01:03:18 - google_genai.models - INFO - AFC is enabled with max remote calls: 10.
+2025-07-30 01:03:18 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 503 Service Unavailable"
+2025-07-30 01:03:18 - services.llm_service - ERROR - Generation with model gemini-1.5-flash failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'The model is overloaded. Please try again later.', 'status': 'UNAVAILABLE'}}
+2025-07-30 01:03:18 - main - INFO - Request 90371f01-380b-415f-859e-e950c195c543: Completed in 13.43s
+2025-07-30 01:05:04 - root - INFO - Logging configuration initialized
+2025-07-30 01:05:04 - root - INFO - Logging configuration initialized
+2025-07-30 01:05:04 - main - INFO - Starting HackRx - LLM-Powered Query-Retrieval System...
+2025-07-30 01:05:04 - main - INFO - Processing PDFs, DOCX, and email documents
+2025-07-30 01:05:04 - main - INFO - Using FAISS for semantic search and Gemini for LLM
+2025-07-30 01:05:04 - main - INFO - API will be available at: http://localhost:8001
+2025-07-30 01:05:04 - main - INFO - Health check: http://localhost:8001/api/v1/health
+2025-07-30 01:05:04 - main - INFO - API docs: http://localhost:8001/docs
+2025-07-30 01:05:04 - main - INFO - Evaluation endpoint: http://localhost:8001/hackrx/run
+2025-07-30 01:05:04 - main - INFO - In-memory cache initialized
+2025-07-30 01:05:04 - services.vector_service - INFO - Initializing vector service with quota-optimized approach...
+2025-07-30 01:05:06 - services.vector_service - INFO - Gemini client initialized successfully
+2025-07-30 01:05:06 - services.vector_service - INFO - Vector service initialized with quota-optimized approach (dimension: 384)
+2025-07-30 01:05:06 - services.llm_service - INFO - Initializing LLM service with Google Gemini API...
+2025-07-30 01:05:06 - services.llm_service - INFO - LLM service initialized successfully with Google Gemini API
+2025-07-30 01:05:06 - main - INFO - All services initialized successfully
+2025-07-30 01:05:12 - main - INFO - Request 1d879f79-9e14-4737-96f3-95f4aacaab32: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:05:12 - main - INFO - Request 1d879f79-9e14-4737-96f3-95f4aacaab32: Stage 1 - Document Processing
+2025-07-30 01:05:12 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 01:05:12 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:05:13 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 01:05:13 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 01:05:13 - main - INFO - Request 1d879f79-9e14-4737-96f3-95f4aacaab32: Stage 2 - Building Search Index
+2025-07-30 01:05:13 - services.vector_service - INFO - Creating local embeddings for 50 texts (quota-optimized)
+2025-07-30 01:05:13 - services.vector_service - INFO - Built Gemini-powered index for document 1d879f79-9e14-4737-96f3-95f4aacaab32_doc with 50 chunks
+2025-07-30 01:05:13 - main - INFO - Request 1d879f79-9e14-4737-96f3-95f4aacaab32: Stage 3 - Processing Questions
+2025-07-30 01:05:13 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:13 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:13 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:13 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:13 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 01:05:13 - main - INFO - First chunk preview: and coverage of Pre-Existing Diseases. The Grace Period for payment of the premium shall be thirty d...
+2025-07-30 01:05:13 - services.llm_service - ERROR - Local response generation failed: no such group
+2025-07-30 01:05:13 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:14 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:14 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:14 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:14 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:05:14 - main - INFO - First chunk preview: person who holds a valid registration from the medical council of any state or Medical Council of In...
+2025-07-30 01:05:14 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:15 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:15 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:15 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:15 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:05:15 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 01:05:15 - main - INFO - Request 1d879f79-9e14-4737-96f3-95f4aacaab32: Completed in 3.06s
+2025-07-30 01:05:34 - main - INFO - Request a66ebd38-8b56-4e47-a67a-459be9078d46: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:05:34 - main - INFO - Request a66ebd38-8b56-4e47-a67a-459be9078d46: Stage 1 - Document Processing
+2025-07-30 01:05:34 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 01:05:34 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:05:34 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 01:05:34 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 01:05:34 - main - INFO - Request a66ebd38-8b56-4e47-a67a-459be9078d46: Stage 2 - Building Search Index
+2025-07-30 01:05:34 - services.vector_service - INFO - Creating local embeddings for 50 texts (quota-optimized)
+2025-07-30 01:05:34 - services.vector_service - INFO - Built Gemini-powered index for document a66ebd38-8b56-4e47-a67a-459be9078d46_doc with 50 chunks
+2025-07-30 01:05:34 - main - INFO - Request a66ebd38-8b56-4e47-a67a-459be9078d46: Stage 3 - Processing Questions
+2025-07-30 01:05:34 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:35 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:35 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:35 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:35 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 01:05:35 - main - INFO - First chunk preview: and coverage of Pre-Existing Diseases. The Grace Period for payment of the premium shall be thirty d...
+2025-07-30 01:05:35 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 01:05:35 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:36 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:36 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:36 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:36 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:05:36 - main - INFO - First chunk preview: person who holds a valid registration from the medical council of any state or Medical Council of In...
+2025-07-30 01:05:36 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:05:36 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:05:36 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:05:37 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:05:37 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:05:37 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:05:37 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 01:05:37 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:05:37 - main - INFO - Request a66ebd38-8b56-4e47-a67a-459be9078d46: Completed in 2.92s
+2025-07-30 01:06:37 - main - INFO - Request 7d9d4cf7-0369-49fc-8ba8-748ee893b358: Processing 10 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:06:37 - main - INFO - Request 7d9d4cf7-0369-49fc-8ba8-748ee893b358: Stage 1 - Document Processing
+2025-07-30 01:06:38 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 01:06:38 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:06:38 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 01:06:38 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 01:06:38 - main - INFO - Request 7d9d4cf7-0369-49fc-8ba8-748ee893b358: Stage 2 - Building Search Index
+2025-07-30 01:06:38 - services.vector_service - INFO - Creating local embeddings for 50 texts (quota-optimized)
+2025-07-30 01:06:38 - services.vector_service - INFO - Built Gemini-powered index for document 7d9d4cf7-0369-49fc-8ba8-748ee893b358_doc with 50 chunks
+2025-07-30 01:06:38 - main - INFO - Request 7d9d4cf7-0369-49fc-8ba8-748ee893b358: Stage 3 - Processing Questions
+2025-07-30 01:06:38 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:39 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:39 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:39 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:39 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 01:06:39 - main - INFO - First chunk preview: and coverage of Pre-Existing Diseases. The Grace Period for payment of the premium shall be thirty d...
+2025-07-30 01:06:39 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 01:06:39 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:40 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:40 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:40 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:40 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:06:40 - main - INFO - First chunk preview: person who holds a valid registration from the medical council of any state or Medical Council of In...
+2025-07-30 01:06:40 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:06:40 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:41 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:41 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:41 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:41 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:06:41 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 01:06:41 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:06:41 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:42 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:42 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:42 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:42 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for cataract surgery?...
+2025-07-30 01:06:42 - main - INFO - First chunk preview: treatment at home on account of non availability of bed/ room in a hospital. 2.19 Family members mea...
+2025-07-30 01:06:42 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:42 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:42 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:42 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:42 - main - INFO - Retrieved 5 context chunks for question: Are the medical expenses for an organ donor covere...
+2025-07-30 01:06:42 - main - INFO - First chunk preview: been medically advised to undergo an organ transplant iii. The Medical Expenses shall be incurred in...
+2025-07-30 01:06:42 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:44 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:44 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:44 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:44 - main - INFO - Retrieved 5 context chunks for question: What is the No Claim Discount (NCD) offered in thi...
+2025-07-30 01:06:44 - main - INFO - First chunk preview: [Page 1] National Insurance Co. Ltd. Premises No. 18-O374, Plot no. CBD-81, New Town, Kolkata - 7OO1...
+2025-07-30 01:06:44 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:44 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:44 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:44 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:44 - main - INFO - Retrieved 5 context chunks for question: Is there a benefit for preventive health check-ups...
+2025-07-30 01:06:44 - main - INFO - First chunk preview: to any ICU patient including monitoring devices, critical care nursing and intensivist charges. 2.25...
+2025-07-30 01:06:44 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:45 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:45 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:45 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:45 - main - INFO - Retrieved 5 context chunks for question: How does the policy define a 'Hospital'?...
+2025-07-30 01:06:45 - main - INFO - First chunk preview: the Policy that provides that the insured shall bear a specified percentage of the admissible claim ...
+2025-07-30 01:06:45 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:46 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:46 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:46 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:46 - main - INFO - Retrieved 5 context chunks for question: What is the extent of coverage for AYUSH treatment...
+2025-07-30 01:06:46 - main - INFO - First chunk preview: and includes Community Health Centre (CHC), Primary Health Centre (PHC), Dispensary, Clinic, Polycli...
+2025-07-30 01:06:46 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:06:47 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:06:47 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:06:47 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:06:47 - main - INFO - Retrieved 5 context chunks for question: Are there any sub-limits on room rent and ICU char...
+2025-07-30 01:06:47 - main - INFO - First chunk preview: of India or the Nursing Council of any state in India. 2.48 Reasonable and Customary Charges means t...
+2025-07-30 01:06:47 - main - INFO - Request 7d9d4cf7-0369-49fc-8ba8-748ee893b358: Completed in 9.88s
+2025-07-30 01:13:30 - main - INFO - Request aa7d93a3-1c41-468f-ada1-c786b13f3800: Processing 3 questions for document: https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:13:30 - main - INFO - Request aa7d93a3-1c41-468f-ada1-c786b13f3800: Stage 1 - Document Processing
+2025-07-30 01:13:30 - services.document_processor_fixed - INFO - Successfully downloaded 704602 bytes
+2025-07-30 01:13:30 - services.document_processor_fixed - INFO - Downloaded 704602 bytes from https://hackrx.blob.core.windows.net/assets/policy.pdf?sv=2023-01-03&st=2025-07-04T09%3A11%3A24Z&se=2027-07-05T09%3A11%3A00Z&sr=b&sp=r&sig=N4a9OU0w0QXO6AOIBiu4bpl7AXvEZogeT%2FjUHNO7HzQ%3D
+2025-07-30 01:13:31 - services.document_processor_fixed - INFO - Strategy 1 (PyMuPDF) succeeded
+2025-07-30 01:13:31 - services.document_processor_fixed - INFO - Successfully extracted 109019 characters
+2025-07-30 01:13:31 - main - INFO - Request aa7d93a3-1c41-468f-ada1-c786b13f3800: Stage 2 - Building Search Index
+2025-07-30 01:13:31 - services.vector_service - INFO - Creating local embeddings for 50 texts (quota-optimized)
+2025-07-30 01:13:31 - services.vector_service - INFO - Built Gemini-powered index for document aa7d93a3-1c41-468f-ada1-c786b13f3800_doc with 50 chunks
+2025-07-30 01:13:31 - main - INFO - Request aa7d93a3-1c41-468f-ada1-c786b13f3800: Stage 3 - Processing Questions
+2025-07-30 01:13:31 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:13:31 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:13:31 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:13:31 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:13:31 - main - INFO - Retrieved 5 context chunks for question: What is the grace period for premium payment under...
+2025-07-30 01:13:31 - main - INFO - First chunk preview: and coverage of Pre-Existing Diseases. The Grace Period for payment of the premium shall be thirty d...
+2025-07-30 01:13:31 - services.llm_service - INFO - Cache hit for question: What is the grace period for premium payment under...
+2025-07-30 01:13:31 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:13:32 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:13:32 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:13:32 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:13:32 - main - INFO - Retrieved 5 context chunks for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:13:32 - main - INFO - First chunk preview: person who holds a valid registration from the medical council of any state or Medical Council of In...
+2025-07-30 01:13:32 - services.llm_service - INFO - Cache hit for question: What is the waiting period for pre-existing diseas...
+2025-07-30 01:13:32 - services.vector_service - INFO - Processing 1 texts for embeddings (limited to conserve quota)
+2025-07-30 01:13:33 - httpx - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-001:batchEmbedContents "HTTP/1.1 200 OK"
+2025-07-30 01:13:33 - services.vector_service - INFO - Generated 1 embeddings (optimized for quota)
+2025-07-30 01:13:33 - services.vector_service - ERROR - Gemini search failed: , falling back to text search
+2025-07-30 01:13:33 - main - INFO - Retrieved 5 context chunks for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:13:33 - main - INFO - First chunk preview: in the Policy mid-term and requisite premium paid to the Company. Cover Maternity Expenses means; a)...
+2025-07-30 01:13:33 - services.llm_service - INFO - Cache hit for question: Does this policy cover maternity expenses, and wha...
+2025-07-30 01:13:33 - main - INFO - Request aa7d93a3-1c41-468f-ada1-c786b13f3800: Completed in 3.04s

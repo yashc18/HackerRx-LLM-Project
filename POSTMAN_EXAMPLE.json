@@ -1,0 +1,44 @@
+{
+  "info": {
+    "name": "HackRx API Collection",
+    "description": "Correct request format for HackRx API",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "HackRx Run",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Authorization",
+            "value": "Bearer 5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8",
+            "type": "text"
+          },
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          },
+          {
+            "key": "Accept",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"documents\": \"https://example.com/sample-document.pdf\",\n  \"questions\": [\n    \"What is the main topic of this document?\",\n    \"What are the key findings mentioned?\",\n    \"Who are the primary authors?\"\n  ]\n}"
+        },
+        "url": {
+          "raw": "http://localhost:8001/hackrx/run",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "8001",
+          "path": ["hackrx", "run"]
+        },
+        "description": "Main evaluation endpoint for HackRx system"
+      }
+    }
+  ]
+} 
