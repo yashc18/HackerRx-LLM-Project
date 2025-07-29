@@ -1,0 +1,49 @@
+---
+description: AI/ML guidelines for LLM service and vector search
+globs: ["services/llm_service.py", "services/vector_service.py", "services/document_processor.py"]
+alwaysApply: false
+---
+
+# AI/ML Guidelines
+
+## LLM Service Requirements
+- Always implement dual-model validation for accuracy
+- Provide confidence scores (0.0-1.0) for all responses
+- Include citation extraction for source identification
+- Handle model failures with fallback mechanisms
+- Cache model responses to improve performance
+
+## Vector Search Standards
+- Use FAISS for efficient similarity search
+- Implement hybrid retrieval (dense + sparse + graph-based)
+- Maintain semantic graph relationships with NetworkX
+- Optimize embedding generation and storage
+- Handle large-scale vector operations efficiently
+
+## Document Processing
+- Support multiple formats: PDF, DOCX, EML
+- Implement OCR for image-based content
+- Extract structural information (tables, headers, sections)
+- Normalize content for consistent processing
+- Handle corrupted or empty documents gracefully
+
+## Model Management
+- Use Ollama for local LLM inference
+- Implement model fallback chains (primary → validation → fallback)
+- Cache embeddings to avoid recomputation
+- Monitor model performance and accuracy
+- Handle model loading and unloading gracefully
+
+## Quality Assurance
+- Implement confidence scoring for all AI responses
+- Provide explainable AI features with detailed breakdowns
+- Detect and handle contradictory information
+- Validate AI outputs against source documents
+- Implement uncertainty analysis for unclear responses
+
+## Performance Optimization
+- Use batch processing for multiple documents
+- Implement parallel processing where possible
+- Cache frequently accessed embeddings
+- Optimize chunk sizes for different document types
+- Monitor memory usage during large operations

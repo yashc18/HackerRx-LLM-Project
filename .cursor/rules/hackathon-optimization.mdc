@@ -1,0 +1,55 @@
+---
+description: Hackathon-specific optimizations and edge case handling
+globs: ["services/hackathon_handler.py", "main*.py", "setup_hackathon.py"]
+alwaysApply: false
+---
+
+# Hackathon Optimization Guidelines
+
+## Edge Case Handling
+- Handle empty or corrupted documents gracefully
+- Process very large files (>100MB) efficiently
+- Support non-English content with proper encoding
+- Handle mathematical formulas and complex tables
+- Detect and handle contradictory information
+- Process image-heavy documents with OCR
+
+## Performance for Demo
+- Optimize for sub-2-second response times
+- Implement intelligent caching strategies
+- Use parallel processing for multiple questions
+- Provide real-time progress indicators
+- Graceful degradation under high load
+- Minimize blocking I/O operations; use async for all operations
+- Implement caching for static and frequently accessed data
+- Optimize data serialization and deserialization with Pydantic
+- Use lazy loading techniques for large datasets
+- Prioritize API performance metrics (response time, latency, throughput)
+
+## Demo Readiness
+- Ensure system starts in under 30 seconds
+- Provide clear error messages for judges
+- Include comprehensive health checks
+- Implement automatic recovery mechanisms
+- Create demo scripts for consistent presentations
+
+## Innovation Features
+- Implement semantic relationship mapping
+- Use advanced graph-based retrieval
+- Provide explainable AI features
+- Include domain-specific optimizations
+- Demonstrate technical excellence
+
+## Quality Assurance
+- Comprehensive confidence scoring (0.0-1.0)
+- Automatic citation extraction
+- Cross-model validation for accuracy
+- Uncertainty analysis for unclear responses
+- Contradiction detection in source documents
+
+## Production Readiness
+- Comprehensive logging and monitoring
+- Health check endpoints with detailed metrics
+- Rate limiting and security measures
+- Graceful error handling and fallbacks
+- Performance monitoring and optimization
