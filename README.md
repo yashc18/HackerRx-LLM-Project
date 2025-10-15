@@ -1,6 +1,12 @@
-# 🚀 HackRx - LLM-Powered Query-Retrieval System
+# HackRx - LLM-Powered Query-Retrieval System
 
-A production-grade intelligent document processing and query system designed for hackathon competitions. The system processes multi-format documents (PDF, DOCX, EML) and provides contextually accurate answers with confidence scoring.
+💡 Problem Statement
+
+In industries like insurance, healthcare, and finance, vast amounts of critical information are locked inside unstructured documents — policy PDFs, claim reports, client emails, and agreements. Extracting precise answers from these documents is time-consuming and error-prone, especially during audits, compliance checks, or policy verifications.
+
+🔧 Solution Overview
+
+HackRx is an LLM-powered intelligent document query system based on concept of **RAG** that automates the retrieval of answers from complex, multi-format data sources. Using vector-based semantic understanding and clause-level matching, it allows users to ask questions in natural language and receive accurate, explainable answers with confidence scores.
 
 ## 🎯 Features
 
@@ -9,7 +15,6 @@ A production-grade intelligent document processing and query system designed for
 - **LLM Integration**: Google Gemini for intelligent query processing
 - **Clause Matching**: Intelligent extraction of relevant information
 - **Structured Responses**: JSON-formatted answers with confidence scoring
-- **Production Ready**: Optimized for high performance and scalability
 - **Comprehensive API**: RESTful endpoints with proper authentication
 
 ## 🏗️ Architecture
@@ -28,7 +33,7 @@ A production-grade intelligent document processing and query system designed for
 └─────────────────┘    └─────────────────┘    └─────────────────┘
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -253,16 +258,7 @@ Before submitting your endpoint:
 - [ ] Logs are being generated
 - [ ] Environment variables are properly set
 
-## 🎯 Final Submission URL
 
-Your submission URL should be:
-```
-https://your-deployed-domain.com/hackrx/run
-```
-
-## 📄 License
-
-This project is developed for hackathon submission purposes.
 
 ## 🤝 Contributing
 
