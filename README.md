@@ -241,23 +241,6 @@ Raju-insurance/
    - Rebuild the Docker image: `docker-compose build --no-cache`
    - Update requirements.txt if needed
 
-For more troubleshooting tips, see `DEPLOYMENT_GUIDE.md`.
-
-## 📝 Submission Checklist
-
-Before submitting your endpoint:
-
-- [ ] API is deployed and accessible
-- [ ] Health check endpoint returns 200
-- [ ] Main endpoint `/hackrx/run` works with test data
-- [ ] Authentication is properly configured
-- [ ] All required headers are set
-- [ ] Response format matches specification
-- [ ] Performance is acceptable (<5 seconds for complex queries)
-- [ ] Error handling is implemented
-- [ ] Logs are being generated
-- [ ] Environment variables are properly set
-
 
 
 ## 🤝 Contributing
