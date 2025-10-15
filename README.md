@@ -2,7 +2,7 @@
 
 💡 Problem Statement
 
-In industries like insurance, healthcare, and finance, vast amounts of critical information are locked inside unstructured documents — policy PDFs, claim reports, client emails, and agreements. Extracting precise answers from these documents is time-consuming and error-prone, especially during audits, compliance checks, or policy verifications.
+In industries like insurance, healthcare, and finance, vast amounts of critical information are locked inside unstructured documents policy PDFs, claim reports, client emails, and agreements. Extracting precise answers from these documents is time-consuming and error-prone, especially during audits, compliance checks, or policy verifications.
 
 🔧 Solution Overview
 
