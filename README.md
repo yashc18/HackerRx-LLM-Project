@@ -148,10 +148,12 @@ python main.py
 ```
 
 The API will be available at:
-- **Base URL**: `http://localhost:8001`
-- **API Docs**: `http://localhost:8001/docs`
-- **Health Check**: `http://localhost:8001/api/v1/health`
-- **Main Endpoint**: `http://localhost:8001/hackrx/run`
+- **Base URL**: `http://localhost:8000`
+- **API Docs**: `http://localhost:8000/docs`
+- **Health Check**: `http://localhost:8000/api/v1/health`
+- **Main Endpoint**: `http://localhost:8000/hackrx/run`
+
+> **Note**: The application runs on port 8001 by default in main.py but can be configured via docker-compose to use port 8000. Check your deployment configuration.
 
 ### Docker Deployment
 
@@ -194,10 +196,10 @@ docker rm hackrx-api
 
 ```bash
 # Health check
-curl http://localhost:8001/api/v1/health
+curl http://localhost:8000/api/v1/health
 
 # Test main endpoint
-curl -X POST "http://localhost:8001/hackrx/run" \
+curl -X POST "http://localhost:8000/hackrx/run" \
   -H "Authorization: Bearer 5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8" \
   -H "Content-Type: application/json" \
   -d '{
@@ -205,6 +207,8 @@ curl -X POST "http://localhost:8001/hackrx/run" \
     "questions": ["What is this document about?"]
   }'
 ```
+
+> **Note**: The Bearer token `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8` is a hardcoded token for the HackRx hackathon. In production, use proper authentication with rotating tokens.
 
 ## 📡 API Endpoints
 
@@ -257,7 +261,7 @@ Accept: application/json
 
 **Example using cURL:**
 ```bash
-curl -X POST "http://localhost:8001/hackrx/run" \
+curl -X POST "http://localhost:8000/hackrx/run" \
   -H "Authorization: Bearer 5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8" \
   -H "Content-Type: application/json" \
   -d '{
@@ -268,6 +272,8 @@ curl -X POST "http://localhost:8001/hackrx/run" \
     ]
   }'
 ```
+
+> **Security Note**: The hardcoded Bearer token shown above is specific to the HackRx hackathon evaluation. In production environments, implement proper OAuth2 or JWT-based authentication with rotating tokens.
 
 ### 2. Health Check: `/api/v1/health` (GET)
 
@@ -354,19 +360,19 @@ Check webhook submission status.
 }
 ```
 
-### API Documentation
-
-Interactive API documentation is available at:
-- **Swagger UI**: `http://localhost:8001/docs`
-- **ReDoc**: `http://localhost:8001/redoc`
+### Interactive API documentation is available at:
+- **Swagger UI**: `http://localhost:8000/docs`
+- **ReDoc**: `http://localhost:8000/redoc`
 
 ## 🧪 Testing with Postman
 
 ### Setup
 1. Import the Postman collection from `POSTMAN_SUBMISSION_GUIDE.md`
 2. Create a new environment with variables:
-   - `base_url`: `http://localhost:8001` (or your deployed URL)
+   - `base_url`: `http://localhost:8000` (or your deployed URL)
    - `auth_token`: `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8`
+
+> **Note**: The auth_token above is a hardcoded token for HackRx hackathon evaluation.
 
 ### Test Endpoints
 
@@ -404,7 +410,8 @@ Interactive API documentation is available at:
 import requests
 import json
 
-BASE_URL = "http://localhost:8001"
+BASE_URL = "http://localhost:8000"
+# Note: This is a hardcoded token for HackRx hackathon. Use proper auth in production.
 AUTH_TOKEN = "5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8"
 
 headers = {
@@ -647,7 +654,9 @@ MAX_REQUEST_SIZE_MB=50
 ### Authentication
 - **Bearer Token Authentication**: Secure API access using JWT tokens
 - **Token Validation**: Every request validates the bearer token
-- **Hardened Token**: `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8`
+- **Hardcoded Token for Hackathon**: `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8`
+  - ⚠️ **Note**: This is a static token for HackRx hackathon evaluation only
+  - For production: Implement OAuth2, JWT with expiration, or API key rotation
 
 ### Input Validation
 - **Pydantic Models**: Strong typing and validation for all requests/responses
@@ -859,8 +868,11 @@ Error: Invalid authentication token
 ```
 **Solutions:**
 - Ensure Bearer token is included in Authorization header
-- Use the correct token: `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8`
+- Use the correct hackathon token: `5ef88cae5f4c94f4fac6b46623fdc0d694813052870019908dd3bbff4c52e1f8`
 - Check for extra spaces or line breaks in token
+- Verify the header format: `Authorization: Bearer <token>`
+
+> **Note**: The token above is specifically for HackRx hackathon. For production, implement proper authentication.
 
 ### Debug Mode
 
